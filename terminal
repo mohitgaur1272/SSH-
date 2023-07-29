@@ -1,0 +1,6 @@
+docker build -t <image_name> .
+docker images
+docker run -itd -e USERANAME=<user_name> -e PASSWORD=<user_password> <image_name>
+docker ps
+docker inspect <container_id>
+ssh <user_name>@<container_IP>
